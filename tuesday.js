@@ -1,7 +1,7 @@
 const name = `Derrick`;
 const age = 22;
 
-function verifyAdulthood(name, age) {
+function verifyAdulthood(myName, myAge) {
   if (age < 0) {
     return `Please enter a valid age!`;
   }
