@@ -2,14 +2,14 @@ const name = `Derrick`;
 const age = 22;
 
 function verifyAdulthood(myName, myAge) {
-  if (age < 0) {
+  if (myAge < 0) {
     return `Please enter a valid age!`;
   }
-  if (age < 18) {
-    return `You are not old enough to enter, ${name}!`;
+  if (myAge < 18) {
+    return `You are not old enough to enter, ${myName}!`;
   }
 
-  return `Welcome, ${name}!`;
+  return `Welcome, ${myName}!`;
 }
 
 console.log(verifyAdulthood(name, age));
