@@ -8,8 +8,7 @@ function verifyAdulthood(myName, myAge) {
   if (myAge < 18) {
     return `You are not old enough to enter, ${myName}!`;
   }
-
-  return `Welcome, ${myName}!`;
+  return ` Welcome, ${myName}! `;
 }
 
 console.log(verifyAdulthood(name, age));
