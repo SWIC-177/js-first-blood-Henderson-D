@@ -1,10 +1,14 @@
-// Define function greet
-function greet(name){
-    return "Hello, " + name
+const person = {
+  name: "John",
+  age: 17,
+};
+
+function verifyAdulthood(personName, personAge) {
+  if (personAge >= 18) return `Welcome, ${personName}!`;
+
+  return `You are not old enough to enter, ${personName}.`;
 }
 
-// Call the function greet
-const greeting = greet("Derrick")
+const adultMessage = verifyAdulthood(person.name, person.age);
 
-// Print the result to the console
-console.log(greeting);
+console.log(adultMessage);
