@@ -8,5 +8,3 @@ function functionName(array) {
 
 const variableName = functionName(arrayName);
 console.log(variableName("Prefix"));
-
-returns //"Prefix" araryName.item
