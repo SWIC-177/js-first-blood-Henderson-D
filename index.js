@@ -4,7 +4,7 @@ const meInfo = {
 }
     
 function welcome(person){
-    return (welcome) => `${welcome}, ${person.name}`
+    return (greet) => `${greet}, ${person.name}`
 }
 
 const customMessage =  welcome(meInfo)
