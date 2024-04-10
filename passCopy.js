@@ -6,6 +6,6 @@ const objectLiteral = {
 
 const otherObject = objectLiteral;
 console.log(otherObject);
-otherObject.rest = "?";
 
+otherObject.rest = "?";
 console.log(otherObject);
