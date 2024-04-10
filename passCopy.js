@@ -1,6 +1,11 @@
-const passBy = "OG Value";
-let copy = passBy;
-console.log(copy); /* Two same console.logs' two different returns */
+const objectLiteral = {
+  greeting: "Hey",
+  name: "you",
+  rest: "!",
+};
 
-copy = "Not the " + passBy;
-console.log(copy);
+const otherObject = objectLiteral;
+console.log(otherObject);
+otherObject.rest = "?";
+
+console.log(otherObject);
