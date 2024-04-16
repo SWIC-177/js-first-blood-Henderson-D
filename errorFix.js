@@ -31,15 +31,15 @@ const people = [
   },
 ];
 
-const renameOdds = (p) => {
-  const newPeople = { ...p };
+function renameOdds(p) {
   for (let i = 0; i < p.length; i += 1) {
+    const newPeople = { ...p };
     if (p[i].id % 2 !== 0) {
       newPeople[i].name = "Odd Name";
     }
   }
 
   return p;
-};
+}
 
 console.log(renameOdds(people));
