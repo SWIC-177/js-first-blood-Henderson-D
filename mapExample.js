@@ -7,7 +7,3 @@ function createGreeting(greeting, increment) {
   return (person) =>
     `${greeting} ${person.name}. You are ${person.age + increment} years old.`;
 }
-
-const greetings = people.map(createGreeting("Hello", 75));
-
-console.log(greetings);
